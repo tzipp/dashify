@@ -2,7 +2,6 @@ package main
 
 import (
 	"os"
-	"fmt"
 	"path"
 	"regexp"
 	"log"
@@ -23,7 +22,5 @@ func main() {
 	parts := []string{dir, dstFile}
 	dst := strings.Join(parts, "")
 
-	// os.Rename(src, dst)
-	fmt.Println(src)
-	fmt.Println(dst)
+	os.Rename(src, dst)
 }
