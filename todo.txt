@@ -2,6 +2,6 @@ If the destination already exists, don't run the renaming process unless forced.
 
 If no argument is provided, run it on all the files in the directory.
 
-Handle leading space.
+Handle leading space???
 
 Option to use underscores, "the other kind of dash".
