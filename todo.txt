@@ -4,6 +4,4 @@ If no argument is provided, run it on all the files in the directory.
 
 Handle leading space.
 
-Handle file extension: . should not be converted to -
-
 Option to use underscores, "the other kind of dash".
